@@ -1,0 +1,1 @@
+{"Username":"user1234testportal","Password":"123qwe123","RegistrationChannel":" User reg tech challenge question","UserProfileProperties":[{"Value":"ryan@gmail.com","ProfilePropertyName":"email"}]}

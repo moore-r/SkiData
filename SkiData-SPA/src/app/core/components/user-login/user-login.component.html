@@ -1,0 +1,17 @@
+<form class='contactForm'> 
+    <h1>Test Portal - User Registration</h1>
+      <input  placeholder="Username" [(ngModel)]='data.name' name="UserName">
+      <input placeholder="Email Adress" [(ngModel)]='data.email' name="emailAddress">
+      <input placeholder="Password" [(ngModel)]='data.password' name="password">
+    <div>
+      <button (click)='onSubmit()'>
+        Submit
+      </button>
+    </div>
+    <div>
+      <p [(ngModel)]="SkiDataSuccessMessage" name="SucccessMessage" ngDefaultControl>
+        {{SkiDataSuccessMessage}}
+      </p>
+    </div>
+</form>
+
